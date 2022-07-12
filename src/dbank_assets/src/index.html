@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Decentralized Bank</title>
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <div class="outer container">
+    <div class="row container">
+      <div class="innerLeft col-lg-6 col-md-6 col-sm-12">
+        <center>
+        <div class="logo">
+          <img id="logo" src="https://nucash.money/img/bank.svg" alt="">
+        </div><br>
+        <p class="logo-txt">Internet computer based decentralised bank application 💲</p>
+      </center>
+      </div>
+      <div class="innerRight col-lg-6 col-md-6 col-sm-12">
+        <div class="entry">
+          <p>Current Balance: Rs. <span id="amount">1000</span>/-</p>
+          <hr>
+          <form id="inputForm" action="#">
+            <label for="">Amount to Deposit </label><br>
+            <input id="deposit" type="number" placeholder="Enter amount"><br>
+            <label for="">Amount to Withdraw</label><br>
+            <input id="withdraw" type="number" placeholder="Enter amount"><br>
+            <input class="btn btn-primary" type="submit" value="Finalise Transaction">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
